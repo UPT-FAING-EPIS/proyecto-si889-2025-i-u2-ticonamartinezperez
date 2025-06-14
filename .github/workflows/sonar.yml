@@ -2,7 +2,7 @@ name: Backend Code Analysis
 
 on:
   push:
-    branches: [ main ]  # Solo se activa en main
+    branches: [ main ]
 
 jobs:
   sonarqube:
