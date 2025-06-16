@@ -13,13 +13,13 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
-    - name: Build and deploy
+    - name: Install Pandoc
+      run: sudo apt-get install pandoc
+
+    - name: Convert Markdown to HTML
       run: |
         mkdir public
-        cp presentacion.md public/index.md
-        echo "Deploying to GitHub Pages"
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        pandoc presentacion.md -o public/index.html
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
