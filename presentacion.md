@@ -63,7 +63,7 @@ Mantener un historial completo de evolución de diagramas con capacidades de rol
 - Generación de UML desde código  
 - Colaboración en tiempo real  
 
-![](Documentos/media/Aspose.Words.ea08ac6b-91ce-4764-8b65-5ae6d44cb683.005.png)  
+![](media/Aspose.Words.ea08ac6b-91ce-4764-8b65-5ae6d44cb683.005.png)  
 *Figura: Módulo de Gestión de Diagramas UML*  
 
 ---
@@ -72,25 +72,25 @@ Mantener un historial completo de evolución de diagramas con capacidades de rol
 
 Diagrama de Caso de Uso del Módulo Iniciar Sesión incluyendo la acción de validar Usuario*
 
-![](Documentos/media/Aspose.Words.ea08ac6b-91ce-4764-8b65-5ae6d44cb683.002.png)
+![](media/Aspose.Words.ea08ac6b-91ce-4764-8b65-5ae6d44cb683.002.png)
 
 ---
 
 Diagrama de Caso de Uso del Modulo Gestionar Usuario
 
-![](Documentos/media/Aspose.Words.ea08ac6b-91ce-4764-8b65-5ae6d44cb683.003.png)
+![](media/Aspose.Words.ea08ac6b-91ce-4764-8b65-5ae6d44cb683.003.png)
 
 ---
 
 Diagrama de Caso de Uso del Módulo Gestionar Colaboración
 
-![](Documentos/media/Aspose.Words.ea08ac6b-91ce-4764-8b65-5ae6d44cb683.004.png)
+![](media/Aspose.Words.ea08ac6b-91ce-4764-8b65-5ae6d44cb683.004.png)
 
 ---
 
 Diagrama de Caso de Uso del Módulo Gestionar Diagramas UML
 
-![](Documentos/media/Aspose.Words.ea08ac6b-91ce-4764-8b65-5ae6d44cb683.005.png)
+![](media/Aspose.Words.ea08ac6b-91ce-4764-8b65-5ae6d44cb683.005.png)
 
 ---
 
@@ -100,66 +100,66 @@ Diagrama de Caso de Uso del Módulo Gestionar Diagramas UML
 ### Diagrama de Subsistemas (paquetes)
 
 
-![](Documentos/media/fd04/diagrama%20subsistema.png)
+![](media/fd04/diagrama%20subsistema.png)
 
 ---
 
 ### Diagrama de Secuencia 
 #### Diagrama de secuencia de colaboración 
 
-![](Documentos/media/Aspose.Words.ea08ac6b-91ce-4764-8b65-5ae6d44cb683.007.png)
+![](media/Aspose.Words.ea08ac6b-91ce-4764-8b65-5ae6d44cb683.007.png)
 
 ---
 
 #### Diagrama de secuencia de generación  de UML
 
-![](Documentos/media/Aspose.Words.ea08ac6b-91ce-4764-8b65-5ae6d44cb683.008.png)
+![](media/Aspose.Words.ea08ac6b-91ce-4764-8b65-5ae6d44cb683.008.png)
 
 ---
 
 #### Diagrama de secuencia de autenticación 
 
-![](Documentos/media/Aspose.Words.ea08ac6b-91ce-4764-8b65-5ae6d44cb683.009.png)
+![](media/Aspose.Words.ea08ac6b-91ce-4764-8b65-5ae6d44cb683.009.png)
 
 ---
 
 #### Diagrama de secuencia de versiona miento 
 
-![](Documentos/media/Aspose.Words.ea08ac6b-91ce-4764-8b65-5ae6d44cb683.010.png)
+![](media/Aspose.Words.ea08ac6b-91ce-4764-8b65-5ae6d44cb683.010.png)
 
 ---
 
 #### Diagrama de secuencia de Comentarios
 
-![](Documentos/media/Aspose.Words.ea08ac6b-91ce-4764-8b65-5ae6d44cb683.011.png)
+![](media/Aspose.Words.ea08ac6b-91ce-4764-8b65-5ae6d44cb683.011.png)
 
 ---
 
 
 ### Diagrama de Clases
 
-![](Documentos/media/fd04/diagrama%20de%20clases.png)
+![](media/fd04/diagrama%20de%20clases.png)
 
 ---
 
 ### Diagrama de Base de datos
 
-![](Documentos/media/Aspose.Words.ea08ac6b-91ce-4764-8b65-5ae6d44cb683.014.png)
+![](media/Aspose.Words.ea08ac6b-91ce-4764-8b65-5ae6d44cb683.014.png)
 
 ---
 
 ### Diagrama de arquitectura software
 
-![](Documentos/media/Aspose.Words.ea08ac6b-91ce-4764-8b65-5ae6d44cb683.015.png)
+![](media/Aspose.Words.ea08ac6b-91ce-4764-8b65-5ae6d44cb683.015.png)
 
 ---
 
 ### Diagrama de arquitectura del sistema
 
-![](Documentos/media/Aspose.Words.ea08ac6b-91ce-4764-8b65-5ae6d44cb683.016.png)
+![](media/Aspose.Words.ea08ac6b-91ce-4764-8b65-5ae6d44cb683.016.png)
 
 ---
 
 ### Diagrama de despliegue
 
-![](Documentos/media/Aspose.Words.ea08ac6b-91ce-4764-8b65-5ae6d44cb683.022.png)
+![](media/Aspose.Words.ea08ac6b-91ce-4764-8b65-5ae6d44cb683.022.png)
