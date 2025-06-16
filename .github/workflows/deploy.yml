@@ -20,11 +20,14 @@ jobs:
       - name: Generate HTML from Marp Markdown
         run: marp presentacion.md --html -o output/index.html
 
+      - name: Copy media files
+        run: cp -r Documentos/media output/media
+
       - name: Upload Presentation Artifact
         uses: actions/upload-artifact@v4
         with:
           name: marp-presentation
-          path: output/index.html
+          path: output
 
   deploy:
     needs: build
