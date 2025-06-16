@@ -1,3 +1,7 @@
+---
+theme: default
+paginate: true
+---
 
 # Plataforma Avanzada para Generación Automática de Diagramas UML  
 **Tech Solutions**  

@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Build Marp and Deploy to GitHub Pages
 
 on:
   push:
@@ -6,23 +6,43 @@ on:
       - main
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
+    name: Generate MARP Presentation
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-    - name: Install Pandoc
-      run: sudo apt-get install pandoc
+      - name: Install Marp CLI
+        run: npm install -g @marp-team/marp-cli
 
-    - name: Convert Markdown to HTML
-      run: |
-        mkdir public
-        pandoc presentacion.md -o public/index.html
+      - name: Generate HTML from Marp Markdown
+        run: marp presentacion.md --html -o output/index.html
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: public
+      - name: Upload Presentation Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: marp-presentation
+          path: output/index.html
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    name: Deploy to GitHub Pages
+
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: marp-presentation
+          path: ./public
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+
+      - name: Print GitHub Pages URL
+        run: 'echo "✅ La presentación está publicada en: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"'
